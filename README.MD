@@ -50,7 +50,7 @@ O projeto consiste em dois componentes principais:
 ## 🌟 Demonstração NÃO ESTÁ totalmente responsíva
 
 ### PROJETO SEMI CONCLUÍDO
-![ACESSE O PROJETO](https://charlescript.github.io/desafio-page-youtube-dio/)
+![ACESSE O PROJETO]("https://charlescript.github.io/desafio-page-youtube-dio")
 
 ---
 
