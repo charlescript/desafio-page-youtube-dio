@@ -49,8 +49,8 @@ O projeto consiste em dois componentes principais:
 
 ## 🌟 Demonstração NÃO ESTÁ totalmente responsíva
 
-### Cabeçalho
-![Exemplo do Cabeçalho](link_para_screenshot_do_cabecalho)
+### PROJETO SEMI CONCLUÍDO
+![ACESSE O PROJETO](https://charlescript.github.io/desafio-page-youtube-dio/)
 
 ---
 
