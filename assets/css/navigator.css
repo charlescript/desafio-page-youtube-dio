@@ -1,0 +1,282 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%; 
+}
+
+header {
+  margin-bottom: 5rem;
+}
+
+
+
+header nav .navigator {
+  width: 100%;
+  height: 5rem;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+header nav .navigator .menu img{
+  width: 2.5rem;
+  height: 2rem;
+  margin-left: 5rem;
+  margin-right: 1rem;
+}
+
+header nav .logo img{
+  width: 11rem;
+  margin-right: 30rem;
+}
+/* ///////////////////////////////////// */
+
+header nav .find .find-capsule{
+  display: flex;
+  border: thin solid lightgray;
+  border-radius: 3rem;
+}
+
+header nav .find .find-capsule input{ 
+  border: none;
+  border-radius: 3rem 0rem 0rem 3rem;
+  padding-left: 2rem;
+  width: 50rem;
+}
+
+header nav .find .find-capsule img {
+  width: 2.5rem;
+  border: thin solid lightgrey;
+  border-radius: 0rem 3rem 3rem 0rem;
+  padding: 0rem .8rem;
+  background-color: rgb(106, 106, 107);
+  object-fit: cover;
+  cursor: pointer;
+}
+
+header nav .microphone img{
+  width: 2rem;
+  margin-left: 3rem;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  padding: .5rem;
+  background-color: rgb(197, 197, 202);
+  margin-top: .4rem;
+  cursor: pointer;
+}
+
+/* ///////////////////////////////////// */
+
+header nav .icons {
+  margin-left: 30%;
+  margin-top: .4rem;
+
+}
+
+header nav .icon-capsule {
+  margin-left: 3rem;  
+}
+
+header nav .icons img {
+  width: 2rem;
+  cursor: pointer;
+  margin: 1rem;
+  object-fit: cover;
+}
+
+header nav .user {
+  margin-left: 2rem;
+  margin-top: .4rem;
+}
+
+header nav .user img {
+  width: 2rem;
+  height: 2.5rem;
+  object-fit: cover;
+  border-radius: 60%;
+}
+
+/* ///////////////////////////////////// */
+
+
+@media screen and (max-width: 2560px){
+  header nav .navigator {
+    width: 100%;
+    height: 5rem;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  header nav .logo img{
+    width: 11rem;
+    margin-right: 10rem;
+  }
+
+}
+
+@media screen and (max-width: 1548px){
+
+  header nav .icons {
+    margin-left: 10%;
+    margin-top: .4rem;
+  }
+
+}
+
+@media screen and (max-width: 1194px){
+
+  header nav .icons {
+    margin-left: 5%;
+    margin-top: .4rem;
+  }
+
+  header nav .find .find-capsule input{ 
+    border: none;
+    border-radius: 3rem 0rem 0rem 3rem;
+    padding-left: 2rem;
+    width: 30rem;
+  }
+
+}
+
+
+@media screen and (max-width: 921px){
+  header nav .logo img{
+    width: 11rem;
+    margin-right: 5rem;
+  }
+
+  header nav .user {
+    visibility: hidden;
+  }
+}
+
+
+@media screen and (max-width: 832px){
+
+  header nav .icons {
+    margin-left: 2%;
+  }
+
+  header nav .find .find-capsule input{ 
+    border: none;
+    border-radius: 3rem 0rem 0rem 3rem;
+    padding-left: 2rem;
+    width: 20rem;
+  }
+
+  header nav .logo img{
+    width: 11rem;
+    margin-right: 2rem;
+  }
+}
+
+
+@media screen and (max-width: 710px){
+
+  header {
+    margin-bottom: 10rem;
+  }
+  
+
+  header nav .find .find-capsule input{ 
+    border: none;
+    border-radius: 3rem 0rem 0rem 3rem;
+    padding-left: 2rem;
+    width: 100%;
+    align-items: center;
+  }
+
+}
+
+
+@media screen and (max-width: 515px){
+
+  header {
+    margin-bottom: 15rem;
+  }
+  
+
+  header nav .microphone{
+    width: 2rem;
+    margin-left: 25%;
+    border-radius: 50%;
+    padding: .5rem;
+    margin-top: .4rem;
+    cursor: pointer;
+  }
+
+}
+
+@media screen and (max-width: 452px){v
+
+  header {
+    margin-bottom: 15rem;
+  }
+  
+
+  header nav .microphone{
+    width: 2rem;
+    margin-left: 0%;
+    border-radius: 50%;
+    padding: .5rem;
+    margin-top: .4rem;
+    cursor: pointer;
+  }
+
+  header nav .find .find-capsule {
+    margin-left: 2rem;
+  }
+
+  header nav .find .find-capsule input{ 
+    border: none;
+    border-radius: 3rem 0rem 0rem 3rem;
+    padding-left: 2rem;
+    width: 20rem;
+  }
+
+}
+
+@media screen and (max-width: 375px){
+
+  header {
+    margin-bottom: 15rem;
+  }
+  
+
+  header nav .icons {
+    visibility: hidden;
+  }
+
+  header nav .user {
+    visibility: hidden;
+  }
+}
+
+
+@media screen and (max-width: 295px){
+
+  header {
+    margin-bottom: 15rem;
+  }
+  
+
+  header nav .microphone{
+    visibility: hidden;
+  }
+
+  header nav .navigator .menu img{
+    visibility: hidden;
+  }
+
+}
